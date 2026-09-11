@@ -1,0 +1,9 @@
+../Core/Src/PositionMotor.cpp:3:1:PositionMotor::PositionMotor(TIM_HandleTypeDef*, uint32_t, uint32_t, GPIO_TypeDef*, uint16_t, uint16_t, float, float, float, float)	1
+../Core/Src/PositionMotor.cpp:15:6:void PositionMotor::begin()	1
+../Core/Src/PositionMotor.cpp:20:6:void PositionMotor::setTargetPosition(float)	1
+../Core/Src/PositionMotor.cpp:24:6:void PositionMotor::setGains(float, float, float)	1
+../Core/Src/PositionMotor.cpp:60:6:void PositionMotor::update(float, float)	1
+../Core/Src/PositionMotor.cpp:66:6:void PositionMotor::stop()	4
+../Core/Src/PositionMotor.cpp:73:7:float PositionMotor::getOutput() const	1
+../Core/Src/PositionMotor.cpp:77:7:float PositionMotor::getTargetPosition() const	1
+../Core/Src/PositionMotor.cpp:81:6:void PositionMotor::driveOutput(float)	7

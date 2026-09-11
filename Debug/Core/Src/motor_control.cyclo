@@ -1,0 +1,6 @@
+../Core/Src/motor_control.cpp:37:14:float ReadSteeringPositionCounts()	1
+../Core/Src/motor_control.cpp:43:14:float ReadDriveSpeedRPM(float)	1
+../Core/Src/motor_control.cpp:72:6:void MotorControl_Init()	1
+../Core/Src/motor_control.cpp:80:6:void MotorControl_Update(float)	1
+../Core/Src/motor_control.cpp:89:1:void __static_initialization_and_destruction_0()	1
+../Core/Src/motor_control.cpp:89:1:cpp)	1
