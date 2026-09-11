@@ -10,7 +10,7 @@ int16_t delta_ticks;
 float rpm1 = 0.0f;
 
 
-/*
+/*gg
  * EXAMPLE ONLY - replace pin/timer assignments, encoder reads, and gains
  * with your actual rover hardware. This shows the intended integration
  * pattern: one instance per physical motor, updated every control tick.
