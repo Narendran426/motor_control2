@@ -82,7 +82,7 @@ void MotorControl_Update(float dt_seconds) {
     // rather than being hardcoded like this.
     //steeringMotor.setTargetPosition(2048.0f); // example: center position
 	rpm = ReadDriveSpeedRPM(dt_seconds);
-    driveMotor.setTargetSpeed(30.0f);        // example: 150 RPM
+    driveMotor.setTargetSpeed(40.0f);        // example: 150 RPM
     printf("RPM: %.2f\r\n", rpm);
     //steeringMotor.update(ReadSteeringPositionCounts(), dt_seconds);
     driveMotor.update(rpm, dt_seconds);
